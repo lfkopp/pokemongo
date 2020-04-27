@@ -1,0 +1,898 @@
+1586800816659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.LG3reS43HqLx"
+1586800817404	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586800817934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586800817935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586800817936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586800817936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586800819810	Marionette	INFO	Listening on port 64043
+1586800820281	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1586801078500	Marionette	INFO	Stopped listening on port 64043
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n: networkStatus
+1586800996324	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586800996324	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586800996325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586800996325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586800998124	Marionette	INFO	Listening on port 63151
+1586800998444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586801077176	Marionette	INFO	Stopped listening on port 63151
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801044730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801044730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801044730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801044730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801046670	Marionette	INFO	Listening on port 63369
+1586801046909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586801075804	Marionette	INFO	Stopped listening on port 63369
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586801083513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.r9eFS5V0t9Nc"
+1586801084004	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801084454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801084454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801084454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801084454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801086204	Marionette	INFO	Listening on port 63706
+1586801086626	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+1586801095592	Marionette	INFO	Stopped listening on port 63706
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 21740, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+[Child 21740, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+[Child 21740, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+[Child 21740, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+[Child 21740, Chrome_ChildThread] WARNING: pipe error: 232: file Z:/task_1585933993/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 514
+JavaScript error: https://secure.quantserve.com/quant.js, line 2: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586801186266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.rUf1AKpOH3t0"
+1586801186783	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801187224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801187457	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801187458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801187458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801189095	Marionette	INFO	Listening on port 63937
+1586801189378	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586801347440	Marionette	INFO	Stopped listening on port 63937
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801254152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801254152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801254152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801254152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801256857	Marionette	INFO	Listening on port 64141
+1586801257023	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1586801344787	Marionette	INFO	Stopped listening on port 64141
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+creenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801276852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801276852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801276853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801279077	Marionette	INFO	Listening on port 64325
+1586801279441	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was de1586801407168	Marionette	INFO	Stopped listening on port 64551
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1586801342295	Marionette	INFO	Stopped listening on port 64325
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586801405691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.w93EVhf779Wl"
+1586801406393	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801407197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801407197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801407197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801407197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801410393	Marionette	INFO	Listening on port 64754
+1586801410432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586801463300	Marionette	INFO	Stopped listening on port 64754
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586801471718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.1bGFtq1duux3"
+1586801472224	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801472661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801472661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801472661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801472662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801474339	Marionette	INFO	Listening on port 64982
+1586801474829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+1586801494551	Marionette	INFO	Stopped listening on port 64982
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error:1586801494669	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801495270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801495270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801495270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801495270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801497729	Marionette	INFO	Listening on port 65124
+1586801498219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586801617923	Marionette	INFO	Stopped listening on port 65124
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rs\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.JZj07T31LZUH"
+1586801518267	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801518712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801518712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801518712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801518712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801520693	Marionette	INFO	Listening on port 65292
+1586801520866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=19, line 789: TypeError: myiframe.contentWindow is null
+1586801619127	Marionette	INFO	Stopped listening on port 65292
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586801704767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.AX85TKnT0wNX"
+1586801705224	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801705661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801705662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801705662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801705662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801707769	Marionette	INFO	Listening on port 49169
+1586801707879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+1586801738680	Marionette	INFO	Stopped listening on port 49169
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error:1586801739323	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586801740334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586801740334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586801740335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586801740335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586801743823	Marionette	INFO	Listening on port 49321
+1586801743891	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:925:7
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1638:20
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+JavaScript error: resource://devtools/client/inspector/inspector.js, line 1547: TypeError: targetFront is null
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+1586803892296	Marionette	INFO	Stopped listening on port 49321
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deser1586802120520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586802120520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586802120521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586802120521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586802122287	Marionette	INFO	Listening on port 49862
+1586802122679	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:925:7
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1638:20
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+JavaScript error: resource://devtools/client/inspector/inspector.js, line 1547: TypeError: targetFront is null
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:925:7
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1638:20
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+JavaScript error: resource://devtools/client/inspector/inspector.js, line 1547: TypeError: targetFront is null
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+JavaScript warning: https://static.adsafeprotected.com/main.19.8.70.js, line 129: Script terminated by timeout at:
+h@https://static.adsafeprotected.com/main.19.8.70.js:129:450
+c@https://static.adsafeprotected.com/main.19.8.70.js:130:302
+invokeTask@https://pokemon-amigos.web.app/polyfills-es2015.f1e2d6d98c0623f2c03c.js:1:7083
+runTask@https://pokemon-amigos.web.app/polyfills-es2015.f1e2d6d98c0623f2c03c.js:1:2589
+invokeTask@https://pokemon-amigos.web.app/polyfills-es2015.f1e2d6d98c0623f2c03c.js:1:8084
+u@https://pokemon-amigos.web.app/polyfills-es2015.f1e2d6d98c0623f2c03c.js:1:19692
+f@https://pokemon-amigos.web.app/polyfills-es2015.f1e2d6d98c0623f2c03c.js:1:20279
+
+JavaScript error: https://www.pokemongo.com/assets/js/main-a1876ff959.js, line 1: ReferenceError: dataLayer is not defined
+JavaScript error: https://www.pokemongo.com/assets/js/main-a1876ff959.js, line 1: ReferenceError: dataLayer is not defined
+JavaScript error: https://www.pokemongo.com/assets/js/main-a1876ff959.js, line 1: ReferenceError: dataLayer is not defined
+Unable to read VR Path Registry from C:\Users\Jujubinha\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1586803148769	Marionette	INFO	Stopped listening on port 49862
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586803719860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.imhay0idspNA"
+1586803720377	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586803720851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586803720851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586803720851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586803720851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586803722705	Marionette	INFO	Listening on port 50917
+1586803722976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=16, line 859: ReferenceError: sas is not defined
+1586803751145	Marionette	INFO	Stopped listening on port 50917
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586803942727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.NPVzjgfAhelD"
+1586803943233	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586803943753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586803943753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586803943754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586803943754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586803946028	Marionette	INFO	Listening on port 51158
+1586803946341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1586805981062	Marionette	INFO	Stopped listening on port 51158
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586803963119	Marionette	INFO	Listening on port 51302
+1586803963287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586807335093	Marionette	INFO	Stopped listening on port 51302
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.HqrREIqcPXwi"
+1586803971983	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586803973193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586803973193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586803973194	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586803973194	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586803977081	Marionette	INFO	Listening on port 51397
+1586803977168	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1586803990673	Marionette	INFO	Stopped listening on port 51397
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586804678544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.4l8WJJshI9BW"
+1586804679052	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586804679559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586804679559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586804679559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586804679559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586804681314	Marionette	INFO	Listening on port 52225
+1586804681659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804690771&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ud12uizs4yda&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804690771&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ud12uizs4yda&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804690771&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ud12uizs4yda&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804690771&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ud12uizs4yda&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804692099&ver1=2.2.2&qid=034393f5534393f5734363&rnd=3fh2rzit1bhg&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804692099&ver1=2.2.2&qid=034393f5534393f5734363&rnd=3fh2rzit1bhg&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804692099&ver1=2.2.2&qid=034393f5534393f5734363&rnd=3fh2rzit1bhg&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804692099&ver1=2.2.2&qid=034393f5534393f5734363&rnd=3fh2rzit1bhg&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804735928&ver1=2.2.2&qid=034393f5534393f5734363&rnd=04p24umj4l5k&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804735928&ver1=2.2.2&qid=034393f5534393f5734363&rnd=04p24umj4l5k&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804735928&ver1=2.2.2&qid=034393f5534393f5734363&rnd=04p24umj4l5k&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804735928&ver1=2.2.2&qid=034393f5534393f5734363&rnd=04p24umj4l5k&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804778207&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ne9kx5ukvqqc&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804778207&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ne9kx5ukvqqc&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804778207&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ne9kx5ukvqqc&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804778207&ver1=2.2.2&qid=034393f5534393f5734363&rnd=ne9kx5ukvqqc&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804823118&ver1=2.2.2&qid=034393f5534393f5734363&rnd=dv8s13pz1c8h&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804823118&ver1=2.2.2&qid=034393f5534393f5734363&rnd=dv8s13pz1c8h&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804823118&ver1=2.2.2&qid=034393f5534393f5734363&rnd=dv8s13pz1c8h&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804823118&ver1=2.2.2&qid=034393f5534393f5734363&rnd=dv8s13pz1c8h&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804864875&ver1=2.2.2&qid=034393f5534393f5734363&rnd=18zriz8fc9xt&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804864875&ver1=2.2.2&qid=034393f5534393f5734363&rnd=18zriz8fc9xt&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804864875&ver1=2.2.2&qid=034393f5534393f5734363&rnd=18zriz8fc9xt&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804864875&ver1=2.2.2&qid=034393f5534393f5734363&rnd=18zriz8fc9xt&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804908868&ver1=2.2.2&qid=034393f5534393f5734363&rnd=icbfnsvtetvg&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804908868&ver1=2.2.2&qid=034393f5534393f5734363&rnd=icbfnsvtetvg&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804908868&ver1=2.2.2&qid=034393f5534393f5734363&rnd=icbfnsvtetvg&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804908868&ver1=2.2.2&qid=034393f5534393f5734363&rnd=icbfnsvtetvg&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804952228&ver1=2.2.2&qid=034393f5534393f5734363&rnd=adv066psxtpb&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804952228&ver1=2.2.2&qid=034393f5534393f5734363&rnd=adv066psxtpb&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804952228&ver1=2.2.2&qid=034393f5534393f5734363&rnd=adv066psxtpb&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804952228&ver1=2.2.2&qid=034393f5534393f5734363&rnd=adv066psxtpb&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804993999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=oae6do5kjgjs&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804993999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=oae6do5kjgjs&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804993999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=oae6do5kjgjs&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586804993999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=oae6do5kjgjs&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805036770&ver1=2.2.2&qid=034393f5534393f5734363&rnd=fxjn3myatr0r&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805036770&ver1=2.2.2&qid=034393f5534393f5734363&rnd=fxjn3myatr0r&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805036770&ver1=2.2.2&qid=034393f5534393f5734363&rnd=fxjn3myatr0r&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805036770&ver1=2.2.2&qid=034393f5534393f5734363&rnd=fxjn3myatr0r&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805080622&ver1=2.2.2&qid=034393f5534393f5734363&rnd=zedkdvxcsqt9&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805080622&ver1=2.2.2&qid=034393f5534393f5734363&rnd=zedkdvxcsqt9&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805080622&ver1=2.2.2&qid=034393f5534393f5734363&rnd=zedkdvxcsqt9&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805080622&ver1=2.2.2&qid=034393f5534393f5734363&rnd=zedkdvxcsqt9&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805122826&ver1=2.2.2&qid=034393f5534393f5734363&rnd=hiaj5w59qj2p&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805122826&ver1=2.2.2&qid=034393f5534393f5734363&rnd=hiaj5w59qj2p&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805122826&ver1=2.2.2&qid=034393f5534393f5734363&rnd=hiaj5w59qj2p&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805122826&ver1=2.2.2&qid=034393f5534393f5734363&rnd=hiaj5w59qj2p&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805166346&ver1=2.2.2&qid=034393f5534393f5734363&rnd=w5rnxjaikg8m&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805166346&ver1=2.2.2&qid=034393f5534393f5734363&rnd=w5rnxjaikg8m&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805166346&ver1=2.2.2&qid=034393f5534393f5734363&rnd=w5rnxjaikg8m&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805166346&ver1=2.2.2&qid=034393f5534393f5734363&rnd=w5rnxjaikg8m&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805208432&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1dhq7p3nn3d0&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805208432&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1dhq7p3nn3d0&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805208432&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1dhq7p3nn3d0&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805208432&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1dhq7p3nn3d0&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805251951&ver1=2.2.2&qid=034393f5534393f5734363&rnd=vin5h9fg6hc9&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805251951&ver1=2.2.2&qid=034393f5534393f5734363&rnd=vin5h9fg6hc9&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805251951&ver1=2.2.2&qid=034393f5534393f5734363&rnd=vin5h9fg6hc9&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805251951&ver1=2.2.2&qid=034393f5534393f5734363&rnd=vin5h9fg6hc9&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805295002&ver1=2.2.2&qid=034393f5534393f5734363&rnd=95ymggadztt4&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805295002&ver1=2.2.2&qid=034393f5534393f5734363&rnd=95ymggadztt4&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805295002&ver1=2.2.2&qid=034393f5534393f5734363&rnd=95ymggadztt4&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805295002&ver1=2.2.2&qid=034393f5534393f5734363&rnd=95ymggadztt4&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805338309&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1t0q7m25oul7&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805338309&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1t0q7m25oul7&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805338309&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1t0q7m25oul7&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805338309&ver1=2.2.2&qid=034393f5534393f5734363&rnd=1t0q7m25oul7&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://cdn.softwaretestinghelp.com/wp-content/cache/min/1/wp-content/plugins/mtouch-quiz/script-5e58a4f055814abf8de352185df27524.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.softwaretestinghelp.com/wp-content/cache/min/1/wp-content/plugins/mtouch-quiz/script-5e58a4f055814abf8de352185df27524.js, line 1: unreachable code after return statement
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805381533&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nm4jbun3ct3n&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805381533&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nm4jbun3ct3n&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805381533&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nm4jbun3ct3n&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805381533&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nm4jbun3ct3n&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805423751&ver1=2.2.2&qid=034393f5534393f5734363&rnd=s2lcgwdudgho&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805423751&ver1=2.2.2&qid=034393f5534393f5734363&rnd=s2lcgwdudgho&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805423751&ver1=2.2.2&qid=034393f5534393f5734363&rnd=s2lcgwdudgho&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805423751&ver1=2.2.2&qid=034393f5534393f5734363&rnd=s2lcgwdudgho&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805466999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=4xw0q54c1620&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805466999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=4xw0q54c1620&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805466999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=4xw0q54c1620&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805466999&ver1=2.2.2&qid=034393f5534393f5734363&rnd=4xw0q54c1620&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805510843&ver1=2.2.2&qid=034393f5534393f5734363&rnd=681y9psmh665&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805510843&ver1=2.2.2&qid=034393f5534393f5734363&rnd=681y9psmh665&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805510843&ver1=2.2.2&qid=034393f5534393f5734363&rnd=681y9psmh665&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805510843&ver1=2.2.2&qid=034393f5534393f5734363&rnd=681y9psmh665&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805553482&ver1=2.2.2&qid=034393f5534393f5734363&rnd=7nwlrr7rl685&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805553482&ver1=2.2.2&qid=034393f5534393f5734363&rnd=7nwlrr7rl685&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805553482&ver1=2.2.2&qid=034393f5534393f5734363&rnd=7nwlrr7rl685&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805553482&ver1=2.2.2&qid=034393f5534393f5734363&rnd=7nwlrr7rl685&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805596485&ver1=2.2.2&qid=034393f5534393f5734363&rnd=tj5n5yfjtxt5&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805596485&ver1=2.2.2&qid=034393f5534393f5734363&rnd=tj5n5yfjtxt5&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805596485&ver1=2.2.2&qid=034393f5534393f5734363&rnd=tj5n5yfjtxt5&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805596485&ver1=2.2.2&qid=034393f5534393f5734363&rnd=tj5n5yfjtxt5&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://playercdn.jivox.com/1569362782/player/js/gz/jquery-1.3.2.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805640595&ver1=2.2.2&qid=034393f5534393f5734363&rnd=2w4otenqr2kq&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805640595&ver1=2.2.2&qid=034393f5534393f5734363&rnd=2w4otenqr2kq&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805640595&ver1=2.2.2&qid=034393f5534393f5734363&rnd=2w4otenqr2kq&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805640595&ver1=2.2.2&qid=034393f5534393f5734363&rnd=2w4otenqr2kq&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://playercdn.jivox.com/1569362782/player/js/gz/jquery-1.3.2.min.js, line 19: unreachable code after return statement
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805681837&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nbibzf5qzieh&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805681837&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nbibzf5qzieh&cid=647 line 1 > eval, line 262: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805681837&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nbibzf5qzieh&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1586805681837&ver1=2.2.2&qid=034393f5534393f5734363&rnd=nbibzf5qzieh&cid=647 line 1 > eval, line 175: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://playercdn.jivox.com/1569362782/player/js/gz/jquery-1.3.2.min.js, line 19: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1586805958116	Marionette	INFO	Stopped listening on port 52225
+1586805966867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.YTHKWZK0DlZK"
+1586805967425	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586805968038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586805968038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586805968039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586805968039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586805970344	Marionette	INFO	Listening on port 58786
+1586805970478	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1586807328744	Marionette	INFO	Stopped listening on port 58786
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1586807335218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.6FjzcHPbNWa9"
+1586807335705	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586807336312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586807336312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586807336312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586807336313	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586807338218	Marionette	INFO	Listening on port 59514
+1586807338341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pokemon-amigos.web.app/pt-br/trainer-codes-pokemon-go line 574 > scriptElement, line 1: Error: auctionDone: no bid request for auction aId=afb0c959cf0178
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://gre/modules/Finder.jsm, line 674: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+1586808899585	Marionette	INFO	Stopped listening on port 59514
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1587870363150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.03wbi8d0GeBP"
+1587870363590	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587870364155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587870364155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587870364155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587870364156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587870365883	Marionette	INFO	Listening on port 3456
+1587870366344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pokemon-amigos.web.app/pt-br/trainer-codes-pokemon-go line 620 > scriptElement, line 1: Error: auctionDone: no bid request for auction aId=909b890d33b69c
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8376169300140203&output=html&h=250&slotname=7185533279&adk=2764348279&adf=3918456209&w=300&psa=0&guci=2.2.0.0.2.2.0.0&format=300x250&url=https%3A%2F%2Fpokemon-amigos.web.app&ea=0&flash=0&wgl=1&adsid=NT&dt=1587870373573&bpp=11&bdt=M&idt=725&shv=r20200422&cbv=r20190131&ptt=9&saldr=aa&correlator=8501037235786&frm=23&ife=1&pv=1&ga_vid=1252419647.1587870368&ga_sid=1587870374&ga_hid=1282893212&ga_fc=1&icsg=170&nhd=1&dssz=7&mdo=0&mso=0&u_tz=-180&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=0&u_nmime=0&adx=816&ady=661&biw=1284&bih=895&isw=300&ish=250&ifk=3930929425&scr_x=0&scr_y=0&eid=21065472%2C21065474&oid=3&pvsid=3046232297531279&pem=450&loc=EMPTY&top=https%3A%2F%2Fpokemon-amigos.web.app%2Fpt-br%2Ftrainer-codes-pokemon-go&rx=0&eae=2&fc=640&brdim=4%2C4%2C4%2C4%2C1920%2C0%2C1296%2C975%2C300%2C250&vis=1&rsz=%7C%7CE%7C&abl=CS&pfx=0&fu=8212&bc=29&ifi=1&uci=1.kz6v2mqnf18i&dtd=746, line 1: ReferenceError: osdlfm is not defined
+1587870615667	Marionette	INFO	Stopped listening on port 3456
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587870498995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587870498995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587870498995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587870498995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587870500664	Marionette	INFO	Listening on port 8737
+1587870501129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pokemon-amigos.web.app/pt-br/trainer-codes-pokemon-go line 620 > scriptElement, line 1: Error: auctionDone: no bid request for auction aId=df00a93dc35309
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1587870615243	Marionette	INFO	Stopped listening on port 8737
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1587870630830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.rfaMUIqi15rd"
+1587870631292	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587870631813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587870631813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587870631813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587870631813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587870633380	Marionette	INFO	Listening on port 8993
+1587870633530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ads.themoneytizer.com/s/requestform.js?siteId=39316&formatId=6, line 771: TypeError: document.getElementById(...) is null
+JavaScript error: https://ads.themoneytizer.com/moneyvisibility.js, line 1: Error: not an element node
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1587870960930	Marionette	INFO	Stopped listening on port 8993
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1587934663224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jujubinha\\AppData\\Local\\Temp\\rust_mozprofile.hyKSf6XW4qf7"
+1587934663705	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587934664230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587934664230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587934664230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587934664230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587934665971	Marionette	INFO	Listening on port 28566
+1587934666335	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/shared/fronts/walker.js:411:10
+
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 579"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:579:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 579, column: 0
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 579: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1587939564393	Marionette	INFO	Stopped listening on port 28566
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
