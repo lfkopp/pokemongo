@@ -4,6 +4,8 @@ from time import sleep
 import os
 from ppadb.client import Client as AdbClient
 from PIL import Image #Pillow
+from poke_friends import busca
+
 # %%
 def conecta_android():
     client = AdbClient(host="127.0.0.1", port=5037)
@@ -52,15 +54,16 @@ def insert_number(number):
     device.shell("input tap 500 1250") # ok
 
 # %%
-from poke_friends import busca
-busca()
+device = conecta_android()
+device.shell("input tap 131 1975")  # clica na cara
+sleep(.5)
+device.shell("input tap 503 503") # adicionar amigos
+sleep(.5)
+lista = busca(cidade='Maricá')
+print('lista:',lista)
+for number in lista:
+    insert_number(number)
 
-# %%
-if __name__ == "__main__":
-    device = conecta_android()
-    device.shell("input tap 131 1975")  # clica na cara
-    device.shell("input tap 722 252") # amigos
-    screencap()
 
 
 # %%
