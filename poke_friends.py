@@ -48,7 +48,7 @@ def busca(uf='RJ',cidade='Rio de Janeiro', paginas=3):
     df = pd.DataFrame()
     for _ in range(paginas):
         try:
-            mostrar_mais = browser.find_element_by_xpath("//*[contains(text(), 'Mostrar mais códigos')]")
+            mostrar_mais = browser.find_element_by_xpath("//*[contains(text(), 'Mostrar mais códigos de treinadores')]")
             mostrar_mais.click()
             df2 = pd.read_html(browser.page_source)[0]
             df = df.append(df2)
@@ -67,13 +67,15 @@ def busca(uf='RJ',cidade='Rio de Janeiro', paginas=3):
         if cod not in files:
             img = qr.make(cod)
             img.save('qr_codes/'+str(cod)+'.png')
-    return lista
+    return lista,browser
 
 
 
 
 # %%
 if __name__ == "__main__":
-    lista = busca()
+    lista,browser = busca(cidade='Rio de Janeiro', paginas=10)
     print(lista)
 
+
+# %%

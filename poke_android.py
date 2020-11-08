@@ -1,8 +1,8 @@
-
+## .\adb devices
 # %%
 from time import sleep
 import os
-from ppadb.client import Client as AdbClient
+from ppadb.client import Client as AdbClient #pip install -U pure-python-adb
 from PIL import Image #Pillow
 from poke_friends import busca
 
@@ -11,7 +11,9 @@ def conecta_android():
     client = AdbClient(host="127.0.0.1", port=5037)
     print(client.version())
     os.system('adb kill-server')
+    sleep(1)
     os.system('adb usb')
+    sleep(1)
     os.system('adb devices')
     sleep(1)
     os.system('adb tcpip 5556')
@@ -53,17 +55,27 @@ def insert_number(number):
     sleep(3)
     device.shell("input tap 500 1250") # ok
 
+
+#%%
+lista,_ = busca(cidade='Niterói', paginas=10)
+lista
+
 # %%
 device = conecta_android()
+device
+#%%
 device.shell("input tap 131 1975")  # clica na cara
-sleep(.5)
+sleep(1.5)
 device.shell("input tap 503 503") # adicionar amigos
 sleep(.5)
-lista = busca(cidade='Maricá')
+
+#%%%
 print('lista:',lista)
 for number in lista:
     insert_number(number)
 
-
+#%%
+for i in range(1500):
+    device.shell("input tap 540 1900")
 
 # %%
